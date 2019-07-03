@@ -13,12 +13,18 @@ The script should be run within a directory containing desired protein fastas (l
 ### dependencies
 
 conda install orthofinder
+
 conda install -c bioconda gblocks
+
 conda install -c bioconda mafft
+
 faSomeRecords  -  https://github.com/santiagosnchez/faSomeRecords
+
 fasta_to_phylip.py  -  https://github.com/audy/bioinformatics-hacks/blob/master/bin/fasta-to-phylip
+
 prottest3 - https://github.com/ddarriba/prottest3
   - prottest3 also requires java! (tested on "openjdk 11.0.1 2018-10-16 LTS")
+
 conda install -c genomedk raxml-ng 
 
 ### how to run
