@@ -25,7 +25,7 @@ conda install -c genomedk raxml-ng
 
 0. activate the conda environment and install the necessary software
 
-e.g   source activate <env>
+e.g   source activate "env"
 
 1. copy all protein sets to compare into a single directory 
   - it is helpful to rename each with an organism/specific identifier to rename the proteins within the file. 
@@ -34,7 +34,7 @@ e.g   source activate <env>
 
 ###	- ALL FASTAS MUST END IN " .faa ".
 
-2. execute via : ' ProTree_pipe.sh <threads to use> ' 
+2. execute via : ' ProTree_pipe.sh "threads to use" ' 
 
 ### overview of pipeline
  
@@ -42,7 +42,7 @@ e.g   source activate <env>
 2. alignment of single copy orthologues with mafft
 3. trimming of poorly aligned regions using Gblocks
 4. conversion to phyllip format and model testing using prottest3 (Chooses BIC model)
-5. raxml-ng with 
+5. raxml-ng with 10 randomized parsimony starting trees and 1000 bootstraps
 
 ### to do!
 
