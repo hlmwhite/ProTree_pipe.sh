@@ -46,7 +46,7 @@ e.g   source activate "env"
  
 1. single copy orthologue inference from Orthofinder
 2. alignment of single copy orthologues with mafft
-3. trimming of poorly aligned regions using Gblocks
+3. trimming of poorly aligned regions using Gblocks and alignments concatenated
 4. conversion to phyllip format and model testing using prottest3 (Chooses BIC model)
 5. raxml-ng with 10 randomized parsimony starting trees and 1000 bootstraps
 
