@@ -7,7 +7,7 @@ you may do so within this script at their respective command.
 
 The script should be run within a directory containing desired protein fastas (labelled with '.faa' suffix).
 
-This also works well enough with predicted single copy BUSCO proteins, i.e. generate a multi-fasta file of all '.faa's from the produced single copy genes directory. This circumvents any requirement for full genome annotation.
+This also works well enough with predicted single copy BUSCO proteins, i.e. generate a multi-fasta file of all ".faa"s from the produced single copy genes directory. This circumvents any requirement for full genome annotation.
 
 ### quick start 
 >  ./Protree_pipe.sh num_threads
