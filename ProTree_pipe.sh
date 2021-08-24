@@ -6,7 +6,7 @@
 
 # the program is run within a conda environment, with most tools installed through conda. Other tools are installed through github:
 
-# conda install orthofinder
+# conda install orthofinder (version v2.2.7)
 # conda install -c bioconda gblocks
 # conda install -c bioconda mafft
 # faSomeRecords  -  https://github.com/santiagosnchez/faSomeRecords
