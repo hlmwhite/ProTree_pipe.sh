@@ -2,6 +2,8 @@
 
 ProTree is a simple (and not very clever!) automated pipeline for generating phylogenetic trees based on protein data sets.
 
+NOTE: this version was generated using an older version of orthofinder which has since been updated. current versions have a different directory structure, making it incompatabile with this script in its current form, as it is unable to find the single copy orthologues directory. it could be changed here, or use v2 of this pipeline instead.
+
 It should suit quick and simple phylogenetic inferences without much input, however if there are any desired modifications,
 you may do so within this script at their respective command.
 
